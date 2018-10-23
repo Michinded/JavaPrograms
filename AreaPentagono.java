@@ -1,8 +1,8 @@
-
 import java.util.*;
 
 public class AreaPentagono {
-  public static void main(String args[]) {
+
+	public static void main(String args[]) {
 		Scanner teclado = new Scanner(System.in);
 		float lado, ap, perimetro, r;
 		

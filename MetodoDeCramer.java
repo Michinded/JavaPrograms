@@ -3,7 +3,7 @@ import java.util.*;
 public class MetodoDeCramer {
 
 	public static void main(String args[]) {
-		float a, b, c, d, e, f, x, y;
+		float a, b, c, d, e, f, x, y, deno;
 		Scanner teclado = new Scanner(System.in);
 		
 		
@@ -25,12 +25,15 @@ public class MetodoDeCramer {
 		System.out.print("\nIngrese f: ");
 		f = teclado.nextFloat();
 		
-		
+		deno= ((a * e)-(d * b));
+		if (d!=0) {
+		   	System.out.print("\nESTA ECUACION NO ES POSIBLE");
+		}else {
 		x = ((c * e) - (f * b) ) / ((a * e)-(d * b));
 		
 		y = ((a * f) - (d * c)) / ((a *e )- (d * b));
 		
 		System.out.print("\n\nX = "+x+"\n\nY = "+y);
-		
+		}
 	}
 }
