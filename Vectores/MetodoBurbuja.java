@@ -49,15 +49,17 @@ public class MetodoBurbuja {
 			
 		}
 		
-		
+		/*
 		System.out.print("\n\n\n");
 		
 		
+		Esta funcion aun no se encuentra corregida, (La funcion esperada es Ordenar de Mayor a Menor)
 		for(i=11; i<=0; i--) {
 			
-			System.out.print("\nArreglo Ordenado Menor a Mayor: "+A[i]);
+			System.out.print("\nArreglo Ordenado Mayor a Menor: "+A[i]);
 			
 		}
+		*/
 		
 		
 	}
