@@ -9,10 +9,10 @@ public class MetodoBurbuja2 {
 		int aux;
 		for(int i = 0; i<10; i++) {
 		
-			//System.out.print("\nIngrese los valores del Arreglo ["+i+"]: ");
-			//A[i] = kb.nextInt();
+			System.out.print("\nIngrese los valores del Arreglo ["+i+"]: ");
+			A[i] = kb.nextInt();
 			
-			A[i] = i *5;
+			//A[i] = i *5;
 		}
 		
 		for(int i = 0; i<10; i++) {
