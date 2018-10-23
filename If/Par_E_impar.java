@@ -12,12 +12,13 @@ public class Par_E_impar {
 		number = kb.nextInt();
 		
 		// **** activar el codigo parte 2 **** \\
+		/*
 		var2 = kb.nextInt();
 		if(var2 == 1) {
-			var = true;
+			var = false;
 		}
 		// *********************************** \\
-		
+		*/
 		if(number%2== 0) {
 			
 			System.out.print("\nSu numero es par!!");
@@ -31,7 +32,7 @@ public class Par_E_impar {
 		}
 		
 		// ------- Proceso numero 2 -------- \\
-		
+		/*
 		if(var == true) {
 		
 		r = number / 2;
@@ -46,8 +47,9 @@ public class Par_E_impar {
 			System.out.print("\n\nEs impar");
 		}
 		
-		}
 		
+		}
+		*/
 		// **************************************** \\
 	}
 	
